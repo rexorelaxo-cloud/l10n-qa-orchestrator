@@ -1,0 +1,13 @@
+# Dependencias del L10n QA Orchestrator
+# Versiones con las que se desarrolló y probó el proyecto: Python 3.13, langgraph 1.2.16,
+# langchain-core 1.6.12, pytest 9.1.1, nbformat 5.11.1, nbclient 0.11.0, ipykernel 7.4.0.
+langgraph>=1.2,<2
+langchain-core>=1.0,<2
+
+# Pruebas
+pytest>=8
+
+# Notebook de demostración (y su prueba automatizada)
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29
